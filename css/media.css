@@ -1,0 +1,944 @@
+@media (max-width:1620px) {
+
+  .hero-btn-link {
+    font-size: 24px;
+    padding: 20px 50px;
+  }
+
+  .pic-descr-text {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .card-info-descr {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width:1440px) {
+  .about-info-pic {
+    width: 100%;
+    min-height: 640px;
+  }
+
+  .about-info-cards {
+    width: 100%;
+  }
+
+  .info-cards-card {
+    background-size: 15%;
+  }
+
+}
+
+@media (max-width:1320px) {
+
+  .header-top {
+    justify-content: space-between;
+    padding: 35px 50px 26px 48px;
+    margin-bottom: 42px;
+  }
+
+  .header-logo {
+    width: 400px;
+    max-height: 128px;
+    margin: 0;
+  }
+
+  .header-contact {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    margin-right: 50px;
+  }
+
+  .burger:focus {
+    outline: 2px solid #FF9900;
+    outline-offset: 3px;
+  }
+
+  .burger:active .burger-line {
+    background-color: #E1670E;
+  }
+
+  .burger-line {
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    border: none;
+    transform: translateX(-50%);
+  }
+
+  .burger-line:nth-child(1) {
+    top: 7px;
+  }
+
+  .burger-line:nth-child(2) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .burger-line:nth-child(3) {
+    bottom: 7px;
+  }
+
+  .list-close {
+    width: 23px;
+    padding-top: 38px;
+    padding-left: 50px;
+    padding-right: 370px;
+    margin-bottom: 108px;
+  }
+
+  .list-close-btn {
+    border: none;
+    background-color: inherit;
+    width: 23px;
+    padding: 0;
+  }
+
+  .list-close-btn-img {
+    fill: #333333;
+  }
+
+  .list-close-btn:focus {
+    outline: 2px #FF9900 solid;
+    outline-offset: 4px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+
+  .list-close-btn:active .list-close-btn-img {
+    outline: none;
+    fill: #E1670E;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+
+  .list-item {
+    padding-left: 50px;
+    margin-bottom: 60px;
+  }
+
+  .list-item-link {
+    position: relative;
+    color: #333333;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .list-item-link:focus {
+    outline: 2px #FF9900 solid;
+    outline-offset: 5px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+
+  .list-item-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    height: 2px;
+    background-color: #FF9900;
+    opacity: 0;
+  }
+
+  .list-item-link:hover::after {
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+
+  .list-item-link:active {
+    color: #E1670E;
+    outline: none;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+
+  .section-hero {
+    padding: 0 50px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    line-height: 73.14px;
+  }
+
+  .hero-descr {
+    font-size: 20px;
+    line-height: 24.38px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+  }
+
+  .hero-btn {
+    margin-bottom: 130px;
+  }
+
+  .section-about {
+    padding: 40px 50px;
+  }
+
+  .about-descr {
+    padding-bottom: 58px;
+  }
+
+  .info-cards-card {
+    background-position: 75px 65px;
+    background-size: 15%;
+  }
+
+  .card-info-title {
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+
+  .card-info-descr {
+    padding: 0 20px;
+  }
+
+  .section-how {
+    padding: 42px 50px 34px 50px;
+  }
+
+  .how-steps {
+    padding-bottom: 54px;
+  }
+
+  .left-info {
+    padding-bottom: 24px;
+  }
+
+  .left-info-descr {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .section-faq {
+    padding: 42px 50px 92px 50px;
+  }
+
+  .accordion-title {
+    font-size: 20px;
+    line-height: 32px;
+    padding-right: 100px;
+  }
+
+  .ac .ac-panel .ac-text.faq-accordion-text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .footer {
+    padding: 53px 50px 40px 50px;
+  }
+
+  .footer-info {
+    margin-right: auto;
+  }
+
+  .footer-contacts {
+    width: 59%;
+  }
+
+  .footer-text {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .header-top {
+    padding: 10px 50px;
+  }
+
+  .header-logo {
+    width: 220px;
+    height: 72px;
+  }
+
+  .header-contact {
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: 20px;
+  }
+
+  .header-contact:focus {
+    outline: none;
+  }
+
+  .hero-content {
+    border-radius: 24px;
+    padding: 50px 40px 30px 40px;
+  }
+
+  .swiper.hero-swiper {
+    border-radius: 24px;
+  }
+
+  .hero-title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .hero-descr {
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 61px;
+  }
+
+  .about-info {
+    gap: 32px;
+  }
+
+  .about-descr {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about-info-pic {
+    border-radius: 24px;
+    min-height: 648px;
+  }
+
+  .about-info-pic-descr {
+    padding: 32px 40px;
+  }
+
+  .info-pic-descr-p {
+    padding-right: 47px;
+  }
+
+  .about-descr {
+    padding-bottom: 55px;
+  }
+
+  .about-info-cards {
+    gap: 35px;
+  }
+
+  .info-cards-card {
+    background-size: 20%;
+  }
+
+  .section-how {
+    padding-top: 45px;
+  }
+
+  .how-steps {
+    justify-content: space-between;
+    padding-right: 0;
+    padding-bottom: 50px;
+  }
+
+  .how-steps-step {
+    margin: 0;
+  }
+
+  .how-cards {
+    flex-direction: column-reverse;
+    gap: 42px;
+  }
+
+  .how-cards-left {
+    width: 100%;
+  }
+
+  .left-info {
+    padding-bottom: 22px;
+  }
+
+  .left-info-descr {
+    min-height: 300px;
+  }
+
+  .left-info-title {
+    padding-bottom: 11px;
+  }
+
+  .how-cards-right {
+    width: 100%;
+  }
+
+  .how-cards-btns-doc:before {
+    display: none;
+  }
+
+  .cards-right-img {
+    min-height: 500px;
+    border-radius: 24px;
+  }
+
+  .section-faq {
+    padding-top: 12px;
+    padding-bottom: 110px;
+  }
+
+  .accordion-title {
+    padding-right: 0;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+    padding: 52px 50px;
+    align-items: center;
+  }
+
+  .footer-info {
+    margin: 0;
+  }
+
+  .footer-info-logo {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer-info-nav {
+    display: none;
+  }
+
+  .footer-contacts {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #414141;
+    padding-bottom: 40px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .list-close {
+    padding-top: 22px;
+  }
+
+  .header-contact {
+    font-size: 16px;
+  }
+
+  .header-list {
+    border-radius: 0px 0px 24px 24px;
+  }
+
+  .hero-btn-link {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+
+  .hero-btn-link:hover:before,
+  .hero-btn-link:focus:before {
+  display: none;
+}
+
+  .section-about {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  .about-descr {
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .how-steps {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .how-steps-step {
+    font-size: 20px;
+  }
+
+  .info-cards-card {
+    background-size: 17%;
+    background-position: 38px 68px;
+    padding: 35px 20px 30px 0;
+    padding-left: 22%;
+  }
+
+  .left-info-title {
+    text-align: center;
+  }
+
+  .left-info-descr {
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    min-height: 250px;
+  }
+
+  .how-cards-btns {
+    justify-content: center;
+  }
+
+  .info-pic-descr-btn {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+
+  .how-cards-btns-btn {
+    font-size: 18px;
+    padding: 15px 60px;
+    margin-right: 100px;
+  }
+
+  .how-cards-btns-doc {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+
+  .info-pic-descr-btn:hover:before,
+  .info-pic-descr-btn:focus:before {
+    display: none;
+  }
+
+  .how-cards-btns-btn:hover:before,
+  .how-cards-btns-btn:focus:before {
+    display: none;
+  }
+
+  .how-cards-btns-doc:hover:before,
+  .how-cards-btns-doc:focus:before {
+    display: none;
+  }
+
+  .ac .ac-panel .ac-text.faq-accordion-text {
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+}
+
+@media (max-width:660px) {
+
+  .header-top-info-main {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
+  .header-contacts {
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .header-contact {
+    line-height: 30px;
+    padding: 0;
+  }
+
+  .swiper.hero-swiper {
+    border-radius: 16px;
+  }
+
+  .swiper-slide-img.img-1 {
+    background-image: url(/img/Poraus_filter_320.jpg);
+  }
+
+  .swiper-slide-img.img-2 {
+    background-image: url(/img/Sahaus_filter_320.jpg);
+  }
+
+  .swiper-slide-img.img-3 {
+    background-image: url(/img/Lattiahionta_filter_320.jpeg);
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px 15px 20px;
+  }
+
+  .hero-title {
+    margin-bottom: 50px;
+  }
+
+  .hero-descr {
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 32px;
+  }
+
+  .about-info {
+    justify-content: center;
+  }
+
+  .about-info-pic {
+    display: flex;
+    min-height: 600px;
+    background-position: top;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+  }
+
+  .about-info-pic-descr {
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    background: none;
+    padding: 0;
+  }
+
+  .pic-descr-text {
+    margin-bottom: 20px;
+  }
+
+  .info-pic-descr-p {
+    padding: 0;
+  }
+
+  .info-pic-descr-btn {
+    color: #FF9900;
+    border: 2px solid;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 4px 40px;
+  }
+
+  .info-pic-descr-btn:focus {
+    color: #fff;
+  }
+
+  .info-pic-descr-btn:hover {
+    color: #fff;
+  }
+
+  .info-pic-descr-btn:active {
+    color: #fff;
+    border: 2px solid;
+  }
+
+  .how-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .left-info-descr {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .ac .ac-panel .ac-text.faq-accordion-text {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .header-container {
+    padding: 0;
+  }
+
+  .header-top {
+    padding: 17px 15px 17px 13px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+  }
+
+  .header-logo {
+    width: 200px;
+  }
+
+  .header-contacts {
+    padding-top: 10px;
+  }
+
+  .header-contact {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-align: end;
+  }
+
+  .header-contact:last-child {
+    padding-bottom: 5px;
+  }
+
+  .list-close {
+    padding-top: 22px;
+    padding-left: 15px;
+    margin-bottom: 32px;
+  }
+
+  .header-list {
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  .list-item {
+    padding-left: 15px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .section-hero {
+    padding: 0 15px;
+  }
+
+  .swiper.hero-swiper .swiper-pagination.hero-pagination {
+    margin-bottom: 5px;
+  }
+
+  .about-info-cards {
+    text-align: center;
+  }
+
+  .info-cards-card {
+    background-size: 17%;
+    background-position: center;
+    padding: 35px 20px 30px 0;
+    padding-left: 22%;
+    justify-content: center;
+  }
+
+  .swiper-pagination.hero-pagination {
+    margin-bottom: 5px;
+  }
+
+  .swiper.hero-swiper .swiper-pagination.hero-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .hero-descr {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 32px;
+  }
+
+  .hero-btn-link {
+    font-size: 16px;
+    width: 162px;
+    padding: 13px 28px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+  }
+
+  .section-about {
+    padding: 30px 15px 30px 15px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-descr {
+    padding-bottom: 14px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about-info-pic {
+    display: flex;
+    background-size: 100% 55%;
+  }
+
+  .about-info-pic-descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .pic-descr-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about-info-cards {
+    gap: 33px;
+  }
+
+  .info-cards-card {
+    background-position: left top;
+    background-size: 22.5%;
+    border: none;
+    padding: 0;
+    padding-top: 21%;
+  }
+
+  .card-info-title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 3px;
+  }
+
+  .card-info-descr {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .section-how {
+    padding: 32px 15px 30px 15px;
+  }
+
+  .how-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .how-steps {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    gap: 10px;
+  }
+
+  .how-steps-step {
+    font-size: 14px;
+  }
+
+  .steps-btn {
+    font-size: 14px;
+  }
+
+  .how-cards {
+    gap: 16px;
+  }
+
+  .how-cards-right {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .cards-right-img {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 16px;
+  }
+
+  .left-info {
+    padding-bottom: 24px;
+    max-height: 200px;
+  }
+
+  .left-info-title {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    padding-bottom: 0;
+  }
+
+  .left-info-descr {
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 10px;
+  }
+
+  .how-cards-btns {
+    justify-content: space-between;
+  }
+
+  .how-cards-btns-btn {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 11px 54px;
+    border-radius: 8px;
+    margin: 0;
+  }
+
+  .how-cards-btns-doc {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 11px 32px;
+    border-radius: 8px;
+  }
+
+  .section-faq {
+    padding: 30px 15px 57px 15px;
+  }
+
+  .faq-title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  .accordion-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-right: 0;
+  }
+
+  .ac .ac-panel .ac-text.faq-accordion-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .qest-img {
+    width: 30px;
+  }
+
+  .footer {
+    padding: 32px 15px;
+  }
+
+  .footer-contacts-title {
+    font-size: 24px;
+  }
+
+  .contacts-item {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .footer-info-logo {
+    width: 131px;
+    height: 131px;
+    margin-bottom: 16px;
+  }
+}
